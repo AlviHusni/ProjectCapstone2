@@ -1,2 +1,4 @@
 # ProjectCapstone2
 this is a school project about data analysis
+
+in this project, SaaS-Sales data is given to be analyzed and interpreted. Data anomalies are shown using Tuqey's Method, implementing IQR boxplot in order to visualize data distinction. Any distinct data exceeding the IQR box limit will be interpreted as an outlier. These outlier then transformed into the mean value of the sales to retain it's existance as a data. This new sales data can be considered cleaner than the previous iteration, however the data is shown to be right skewed/positive skew. to reduce the possibility of false positives, Log-Level Transformation is used to neutralize the skewness of the data, giving us dales value in log-level form. this log value can be interpreted using Log-Level Regression equation to find the exact value of the average sale.
